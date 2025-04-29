@@ -56,6 +56,7 @@ jobs:
         uses: hatamiarash7/openapi-generator@v0.3.0
         with:
           generator: python
+          generator-tag: v7.11.0
           openapi-file: openapi.json
           config-file: configs.json
           output-dir: "."
